@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    background-color:#e2e2e2;
+  }
+
+  .header__content{
+    background-color: rgb(255, 254, 254);
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  .header__title{
+    font-size: 20px;
+    text-align: start;
+    display: inline;
+    color: #3b5bdb;
+    background-color: white;
+ 
+  }
+
+.header__input--search{
+  width: 30%;
+  border-radius: 5px;
+  border-color: #ebebeb;
+  border-style: none;
+  font-size: small;
+  padding: 10px;
+}
+
+.form__container{
+  max-width: 720px;
+  margin: 0 auto;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: rgb(255, 254, 254);
+  padding: 30px;
+}
+
+.form__title{
+color: black;
+font-size: large;
+background-color: #ffffff;
+margin-bottom: 15px;
+padding: 10px;  
+}
+
+.form__input-container {
+  display: flex;
+  gap: 10px;
+ background-color: white;
+}
+
+.input__box {
+  padding: 15px;
+  border: 1px solid #ebebeb  ;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.form__button--add-task {
+  margin-top: 20px;
+  padding: 15px 250px;  
+  background-color: #3b5bdb  ;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.form__button--add-task:hover {
+  background-color: #0056b3;
+}
+
+/* Lista de tarefas */
+.tasks__container {
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: rgb(255, 254, 254);
+  padding: 30px;
+}
+
+.tasks__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 254, 254);
+  border-radius: 6px;
+}
+
+.task-info__container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-color: #ebebeb;
+}
+
+.task-type {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.span-urgent {
+  background-color: red;
+}
+
+.span-important {
+  background-color: orange;
+}
+
+.span-normal {
+  background-color: green;
+}
+
+.task__button--remove-task {
+  width: 24px;
+  height: 24px;
+  background: url('https://cdn-icons-png.flaticon.com/512/5366/5366933.png') no-repeat center center;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+}
